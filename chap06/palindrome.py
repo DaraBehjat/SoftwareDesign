@@ -1,6 +1,6 @@
 """Module that provides is_palindrome.
 
-Author of is_palindrome: you
+Author of is_palindrome: Dara
 """
 
 def first(word):
@@ -34,7 +34,16 @@ def middle(word):
 
 
 def is_palindrome(word):
-    """Write a good Docstring here."""
+    """Returns if word is the same read forward and in reverse
 
-    # TODO: fill in the body of this function
-    return True
+    word: string
+    
+    returns: string
+
+    this looks through the list of words provided by words.txt"""
+
+if first(word) == last(word) and middle(word) == middle(word):
+
+   return True
+
+
